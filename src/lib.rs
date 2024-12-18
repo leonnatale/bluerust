@@ -8,9 +8,9 @@ mod binding {
 
 #[derive(Debug)]
 pub struct BluetoothDevice {
-    name: String,
-    address: u64,
-    class: u32
+    pub name: String,
+    pub address: u64,
+    pub class: u32
 }
 
 fn utf16_to_utf8(utf16: &[u16]) -> String {
